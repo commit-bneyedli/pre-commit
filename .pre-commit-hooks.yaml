@@ -6,3 +6,19 @@
     pass_filenames: true
     language: python
     types: [python]
+-   id: python-flake8
+    name: python flake8 wrapper
+    description: Python flake8 code checker
+    entry: flake8
+    language: python
+    pass_filenames: true
+    language: python
+    types: [python]
+-   id: python-bandit
+    name: python bandit wrapper
+    description: Python bandit SAST analyzer
+    entry: bandit
+    language: python
+    pass_filenames: true
+    language: python
+    types: [python]
