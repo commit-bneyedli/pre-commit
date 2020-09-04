@@ -1,5 +1,5 @@
 -   id: python-black
-    name: python black wrapper
+    name: Python black wrapper
     description: Python black code formatter
     entry: black
     language: python
@@ -7,7 +7,7 @@
     language: python
     types: [python]
 -   id: python-flake8
-    name: python flake8 wrapper
+    name: Python flake8 wrapper
     description: Python flake8 code checker
     entry: flake8
     language: python
@@ -15,7 +15,7 @@
     language: python
     types: [python]
 -   id: python-bandit
-    name: python bandit wrapper
+    name: Python bandit wrapper
     description: Python bandit SAST analyzer
     entry: bandit
     language: python
