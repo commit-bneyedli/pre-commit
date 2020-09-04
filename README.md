@@ -54,7 +54,7 @@ Check Yaml...........................................(no files to check)Skipped
 Check for added large files..............................................Passed
 Detect AWS Credentials...................................................Passed
 Detect Private Key.......................................................Passed
-python black wrapper.....................................................Passed
-python flake8 wrapper....................................................Passed
-python bandit wrapper....................................................Passed
+Python black wrapper.....................................................Passed
+Python flake8 wrapper....................................................Passed
+Python bandit wrapper....................................................Passed
 ```
