@@ -10,8 +10,11 @@ Pre-commit custom hooks
 ## Dependencies
 ```$ pip3 install --user pre-commit```
 ### Optional dependencies
+* Python black
 ```$ pip3 install --user black```
+* Python flake8
 ```$ pip3 install --user flake8```
+* Python bandit
 ```$ pip3 install --user bandit```
 
 ## Example Repo Config
