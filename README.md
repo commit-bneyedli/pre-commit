@@ -45,3 +45,16 @@ Updating git@github.com:commit-bneyedli/pre-commit-hooks.git ... [INFO] Initiali
 $ pre-commit install
 pre-commit installed at .git/hooks/pre-commit
 ```
+## Example usage
+```
+$ git commit -a
+Trim Trailing Whitespace.................................................Passed
+Fix End of Files.........................................................Passed
+Check Yaml...........................................(no files to check)Skipped
+Check for added large files..............................................Passed
+Detect AWS Credentials...................................................Passed
+Detect Private Key.......................................................Passed
+python black wrapper.....................................................Passed
+python flake8 wrapper....................................................Passed
+python bandit wrapper....................................................Passed
+```
