@@ -1,0 +1,8 @@
+-   id: python-black
+    name: python black wrapper
+    description: Python black code formatter
+    entry: black
+    language: python
+    pass_filenames: true
+    language: python
+    types: [python]
