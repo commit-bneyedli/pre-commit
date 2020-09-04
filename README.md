@@ -1,12 +1,17 @@
 # pre-commit
 Pre-commit custom hooks
-* id: python-black
-* id: python-flake8
-* id: python-bandit
+* id: [python-black](https://github.com/psf/black) # Python opinionated code formatter
+* id: [python-flake8](https://flake8.pycqa.org/en/latest/) # Python flake8 style enforcement
+* id: [python-bandit](https://pypi.org/project/bandit/) # Python security linter / SAST
 # Usage
 ## Dependencies
 ```$ pip3 install --user pre-commit```
-## Repo Config
+### Optional dependencies
+```$ pip3 install --user black```
+```$ pip3 install --user flake8```
+```$ pip3 install --user bandit```
+
+## Example Repo Config
 ```
 $ cat .pre-commit-config.yaml 
 repos:
